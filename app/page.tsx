@@ -1,3 +1,5 @@
+'use client'
+import { Button } from 'antd'
 import Image from 'next/image'
 import styles from './page.module.css'
 
@@ -38,6 +40,8 @@ export default function Home() {
           priority
         />
       </div>
+
+      <Button type="primary">Button</Button>
 
       <div className={styles.grid}>
         <a
