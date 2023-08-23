@@ -1,7 +1,15 @@
-'use client'
+import type {
+  Metadata,
+} from 'next'
 import { Button } from 'antd'
 import Image from 'next/image'
 import styles from './page.module.css'
+
+export const generateMetadata = (): Metadata => {
+  return {
+    title: '任霏博客'
+  }
+}
 
 export default function Home() {
   return (

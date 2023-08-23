@@ -1,4 +1,5 @@
 import {
+  HomeOutlined,
   ChromeFilled,
   CrownFilled,
   SmileFilled,
@@ -10,10 +11,9 @@ export default {
     path: '/',
     routes: [
       {
-        path: '/welcome',
-        name: '欢迎',
-        icon: <SmileFilled/>,
-        component: './Welcome',
+        path: '/',
+        name: '首页',
+        icon: <HomeOutlined/>,
       },
       {
         path: '/admin',
@@ -88,8 +88,8 @@ export default {
         ],
       },
       {
-        path: 'https://ant.design',
-        name: 'Ant Design 官网外链',
+        path: '/page/about',
+        name: '关于',
         icon: <ChromeFilled/>,
       },
     ],

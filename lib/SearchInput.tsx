@@ -3,14 +3,14 @@
 import {
   PlusCircleFilled,
   SearchOutlined,
-} from '@ant-design/icons';
+} from '@ant-design/icons'
 import {
   Input,
   theme,
 } from 'antd'
 
 const SearchInput = () => {
-  const { token } = theme.useToken();
+  const { token } = theme.useToken()
   return (
     <div
       key="SearchOutlined"
@@ -21,8 +21,8 @@ const SearchInput = () => {
         marginInlineEnd: 24,
       }}
       onMouseDown={(e) => {
-        e.stopPropagation();
-        e.preventDefault();
+        e.stopPropagation()
+        e.preventDefault()
       }}
     >
       <Input
