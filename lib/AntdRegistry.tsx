@@ -39,6 +39,8 @@ const StyledComponentsRegistry = ({children}: { children: React.ReactNode }) => 
             layout={'top'}
             fixedHeader
             fixSiderbar
+            title={'任霏 博客'}
+            logo={'https://cdn.renfei.net/Logo/RF.svg'}
             {...mainMenu}
             avatarProps={{
               src: 'https://gw.alipayobjects.com/zos/antfincdn/efFD%24IOql2/weixintupian_20170331104822.jpg',
