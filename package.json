@@ -11,7 +11,7 @@
     "prebuild": "cross-env NODE_ENV=production ts-node --project ./tsconfig.node.json ./scripts/genAntdCss.tsx"
   },
   "dependencies": {
-    "@ant-design/cssinjs": "^1.16.2",
+    "@ant-design/cssinjs": "^1.17.5",
     "@ant-design/pro-components": "^2.6.13",
     "@ant-design/static-style-extract": "^1.0.1",
     "@types/node": "20.5.2",
