@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@ant-design/cssinjs": "^1.16.2",
-    "@ant-design/pro-components": "^2.6.13",
+    "@ant-design/pro-components": "^2.6.43",
     "@ant-design/static-style-extract": "^1.0.1",
     "@types/node": "20.5.2",
     "@types/react": "18.2.20",
